@@ -17,7 +17,7 @@ import os.path
 from org.apache.nifi.processor.io import OutputStreamCallback
 from org.python.core.util import StringUtil
 
-url = "http://104.197.219.35:8080/nifi-api/"
+url = "http://localhost:8080/nifi-api/"
 update_state_url = "processors/8a069f8d-0179-1000-aaeb-eda86c6d6bda/run-status"
 revision_url = "http://localhost:8080/nifi-api/processors/8a069f8d-0179-1000-aaeb-eda86c6d6bda"
 
